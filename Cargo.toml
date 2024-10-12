@@ -1,0 +1,10 @@
+[package]
+name = "roguelike-tut"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tcod = { git = "https://github.com/tomassedovic/tcod-rs.git", rev = "d4ad074", features = ["serialization"]}
+rand = "0.8.5"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
